@@ -1,0 +1,15 @@
+Answer the following questions:
+1. Let’s define an ordering of similar pool implementations based on concurrency properties,
+from less concurrent to more concurrent:
+• Not thread safe.
+• Lock-free single producer single consumer (SPSC).
+• Lock-free multiple producer single consumer (MPSC).
+• Lock-free multiple producer multiple consumer (MPMC).
+Consider only the calls to Rent and Return. Forget about Dispose for this analysis.
+Which category does the given implementation belong to and why?
+
+2. What changes would you make to move the implementation to the next category (or the 
+previous category if already MPMC)?
+
+
+3. What is the purpose of Implementation._previousImplementation?

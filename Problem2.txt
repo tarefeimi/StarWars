@@ -8,8 +8,19 @@ from less concurrent to more concurrent:
 Consider only the calls to Rent and Return. Forget about Dispose for this analysis.
 Which category does the given implementation belong to and why?
 
+ANSWER : 
+It doesnt look thread safe to me so I would put it as Not thread safe because operation of 
+RENT and RETURN doesnt get consistent values, there are no locks also.
+
 2. What changes would you make to move the implementation to the next category (or the 
 previous category if already MPMC)?
 
+ANSWER :
+
+To make it on next level so SPSC I would probably add a static readonly ReadWriterLockSlim and try to 
+enter read and Write respectivly on RENT And RETURN 
+
 
 3. What is the purpose of Implementation._previousImplementation?
+If there is a overlaps of the same point on buffer we store the previousImplementation of it to keep track 
+

@@ -1,4 +1,7 @@
-# StarWars!
+TARE FEIMI ANSWERS 
+
+PROBLEM 1 : 
+
 
 Main : 
 ![Screenshot_1](https://user-images.githubusercontent.com/51022990/199005244-c17a4951-9397-4ff8-ace9-5086bdd1a5b3.png)
@@ -8,4 +11,10 @@ Implementation of GetMaxCannons :
 
 Method to apply rules : 
 ![Screenshot_3](https://user-images.githubusercontent.com/51022990/199005573-9e37e4b7-5547-4547-bde2-3b193020bfab.png)
+
+
+PROBLEM 2 : 
+
+![Screenshot_4](https://user-images.githubusercontent.com/51022990/199267011-6fbd5468-a161-4b38-8b15-64e36a830137.png)
+
 
